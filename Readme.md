@@ -4,3 +4,6 @@ Welcome to this adventure called the Course project
 
 - Project prototype:
 ![Image alt](Layout.png)
+
+- Project working prototype:
+![Image alt](Working_prototype_1.png)
