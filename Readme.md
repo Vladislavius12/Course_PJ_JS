@@ -16,3 +16,6 @@ Ps: Mainm - Is main section of market
 
 - Mobile version of site:
 ![Image alt](Working_prototype_2.png)
+
+- Screenshot of the work done:
+![Image alt](Working_prototype_3.png)
