@@ -11,15 +11,15 @@ Ps: Mainm - Is main section of market
 
 <details>
   <summary>Screenshots</summary>
-    - Project prototype:
-    ![Image alt](Layout.png)
+  - Project prototype:
+  ![Image alt](Layout.png)
 
-    - Project working prototype:
-    ![Image alt](Working_prototype_1.png)
+   - Project working prototype:
+   ![Image alt](Working_prototype_1.png)
 
-    - Mobile version of site:
-    ![Image alt](Working_prototype_2.png)
+   - Mobile version of site:
+   ![Image alt](Working_prototype_2.png)
 
-    - Screenshot of the work done:
-    ![Image alt](Working_prototype_3.png)  
+   - Screenshot of the work done:
+   ![Image alt](Working_prototype_3.png)  
 </details>
