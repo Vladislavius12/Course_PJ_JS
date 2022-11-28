@@ -11,8 +11,9 @@ Ps: Mainm - Is main section of market
 
 <details>
   <summary>Screenshots</summary>
-  - Project prototype:
-  ![Image alt](Layout.png)
+  
+   - Project prototype:
+   ![Image alt](Layout.png)
 
    - Project working prototype:
    ![Image alt](Working_prototype_1.png)
