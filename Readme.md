@@ -9,6 +9,10 @@ Welcome to this adventure called the Course project
 
 Ps: Mainm - Is main section of market 
 
+# Used libraries
+1. Vite + React
+2. Tailwind CSS
+
 <details>
   <summary>Screenshots</summary>
   

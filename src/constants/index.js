@@ -25,21 +25,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Some shit that we doing and apparently we are doing it very well",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "99% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We are so protected because we don't even have a global server",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Our shipments are the fastest(because we don't send anything)",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+    "The pen is mightier than the sword.",
+    name: "Hudau Uladzislau",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Work while you can.",
+    name: "Sergey Sivchenco",
+    title: "Observer",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    "The squeaky wheel gets the grease.",
+    name: "Just a person",
+    title: "Just a person",
     img: people03,
   },
 ];
@@ -74,17 +74,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "3800+",
+    value: "1+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "1+",
   },
   {
     id: "stats-3",
     title: "Transaction",
-    value: "$230M+",
+    value: "$1M+",
   },
 ];
 
