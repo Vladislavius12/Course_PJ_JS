@@ -2,7 +2,7 @@ Welcome to this adventure called the Course project
 # Course project
 - [Hudov Uladzislau](https://github.com/Vladislavius12)
 
-#Finally, the site is available at 
+# Finally, the site is available at 
 https://vladislavius12.github.io/Course_PJ_JS/
 
 ## My goals

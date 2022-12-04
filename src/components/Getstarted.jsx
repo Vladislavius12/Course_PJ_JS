@@ -1,6 +1,5 @@
 import styles from '../style';
 import { arrowUp } from '../assets';
-import { NavLink } from 'react-router-dom';
 
 const Getstarted = () => (
   <div className={`${styles.flexCenter} w-[140px] h-[140px]
