@@ -1,9 +1,9 @@
 import styles from './style';
 
-import { Navbar, Mainm, Stats, Bisness, Billing, CardDeal, Testimonials, Clients, CTA, Footer }  from './components';
+import { Navbar, Mainm, Stats, Bisness, Billing, CardDeal, Testimonials, Clients, CTA, Footer, Registration }  from './components';
 
 const App = () => (
-  <div className="bg-primary  w-full overflow-hidden">
+    <div className="bg-primary  w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -28,9 +28,7 @@ const App = () => (
         <Footer/>
       </div>
     </div>
-
   </div>
-  );
-
+)
 
 export default App

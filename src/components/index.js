@@ -8,6 +8,7 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Mainm from "./Mainm";
+import Registration from "./Registration";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Footer,
   Testimonials,
   Mainm,
+  Registration,
 };
