@@ -2,13 +2,15 @@ Welcome to this adventure called the Course project
 # Course project
 - [Hudov Uladzislau](https://github.com/Vladislavius12)
 
+#Finally, the site is available at 
+https://vladislavius12.github.io/Course_PJ_JS/
+
 ## My goals
 - Ready
  <del>1. Make modern shop website</del>
 - Ready
  <del>2. Make authorization page </del> 
-- Working on it
-: Wallet
+- Working on somthing
 
 Ps: Mainm - Is main section of market 
 

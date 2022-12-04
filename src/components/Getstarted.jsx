@@ -1,5 +1,6 @@
 import styles from '../style';
 import { arrowUp } from '../assets';
+import { NavLink } from 'react-router-dom';
 
 const Getstarted = () => (
   <div className={`${styles.flexCenter} w-[140px] h-[140px]
@@ -18,7 +19,6 @@ const Getstarted = () => (
         <img src={arrowUp} alt="arrow" className="w-[23px]
         h-[23px] object-contain" />
       </div>
-
       <p className="front-poppins front-medium
         text-[18px] leading-[23px]">
           <span className="text-gradient">

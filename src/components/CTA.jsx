@@ -1,5 +1,5 @@
 import styles from "../style";
-import UsersList from "./UsersList";
+import List from "./List";
 import Registration from "./Registration";
 
 const CTA = () => (
@@ -12,10 +12,9 @@ const CTA = () => (
     </div>
 
     <div>
-      < UsersList />
+      
     </div>
   </section>
 )
 
-
-export default CTA
+export default CTA;

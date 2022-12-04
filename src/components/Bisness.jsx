@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { features } from '../constants';
 import styles, { layout } from '../style';
 import Button from './Button';
@@ -29,7 +30,6 @@ const Bisness = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>A good store should work well, <br className="sm:block hidden" /> as we do.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>There should be a text here with information about the site that I don't have</p>
-        
         <Button styles="mt-10" />
       </div>
 

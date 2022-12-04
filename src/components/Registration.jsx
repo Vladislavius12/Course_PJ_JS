@@ -1,11 +1,11 @@
 import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { useForm } from 'react-cool-form';
+import List from './List';
 
 
-
-const Registration = () => {
+const Registration = () => { 
+    const [button, setButton] = useState('Sign UP')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [emailDirty, setEmailDirty] = useState(false)
@@ -13,6 +13,13 @@ const Registration = () => {
     const [emailError, setEmailError] = useState('Email hasnt be empty')
     const [passwordError, setPasswordError] = useState('Password hasnt be empty')
     const [formValid, setFormValid] = useState(false)
+
+    const SaveData = (e) => {
+        e.preventDefault();
+        setButton('You are Added to list')
+        setFormValid(false)   
+
+    }
 
     useEffect(() =>{
         if (emailError || passwordError){
@@ -57,7 +64,7 @@ const Registration = () => {
     
     return(
       <div className='app'>
-        <form>
+        <form onSubmit={SaveData}>
             <div className="ml-10">
                 {(emailDirty && emailError) && <div style={{color:'red'}}>{emailError}</div>}
                 <input class="shadow appearance-none border border-red-500 rounded py-2 px-3 text-gray-700
@@ -76,12 +83,20 @@ const Registration = () => {
                         </span>
                     </label>
                 </div>
-            <button disabled={!formValid} type="submit" className="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px] ml-10 my-5">Sign UP</button>
+            <button disabled={!formValid} type="submit" className="py-4 px-6 bg-blue-gradient 
+            font-poppins font-medium text-[18px] text-primary 
+            outline-none ${styles} rounded-[10px] ml-10 my-5">{ button }</button>
             <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800 ml-2" href="#">
             Forgot Password?
             </a>
         </form>
+        
+        <div>
+            <List mail={email} pass={password}/>
+        </div>
+
       </div>      
     );
+    
 };
 export default Registration;
