@@ -3,12 +3,12 @@ Welcome to this adventure called the Course project
 - [Hudov Uladzislau](https://github.com/Vladislavius12)
 
 ## My goals
--Ready
-<del>1. Make modern shop website</del>
--Ready
-<del>2. Make authorization page </del> 
--Working on it
-3.Wallet
+- Ready
+ <del>1. Make modern shop website</del>
+- Ready
+ <del>2. Make authorization page </del> 
+- Working on it
+: Wallet
 
 Ps: Mainm - Is main section of market 
 
